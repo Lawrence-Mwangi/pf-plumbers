@@ -23,7 +23,7 @@ const closeNav = () => {
                 <li><a href="#Hero" @click="closeNav">Home</a></li>
                 <li><a href="#About" @click="closeNav">About</a></li>
                 <li><RouterLink :to="{ name: 'service'}">Service</RouterLink></li>
-                <li><a href="#" @click="closeNav">Work</a></li>
+                <li><a href="#Work" @click="closeNav">Work</a></li>
                 <li><a href="#Contact" @click="closeNav">Contact</a></li>
             </ul>
         </div>

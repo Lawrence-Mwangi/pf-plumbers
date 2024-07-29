@@ -18,7 +18,7 @@ import Footer from '@/components/footerComponent.vue'
         <About/>
     </div>
 
-    <div class="main_container" id="work">
+    <div class="main_container" id="Work">
         <Work/>
     </div>
 
