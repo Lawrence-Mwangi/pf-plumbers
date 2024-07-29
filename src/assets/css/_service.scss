@@ -1,0 +1,44 @@
+.service_container{
+    padding: 0.5em 0;
+    
+    .service_content{
+        padding: 1.2em 0;
+        @include grid(4);
+
+        .service_items{
+            border: 1px solid $secondary-color;
+            padding: 0.5em;
+            border-radius: 12px;
+            box-sizing: border-box;
+            height: inherit;
+
+            h3,p{
+                padding: 0.3em 0;
+            }
+
+            .btn{
+                @include flex_center;
+                padding: 0.5em 0;
+
+                button{
+                    padding: 0.8em 2.2em;
+                    background: $accent-color;
+                    border: none;
+                    border-radius: 8px;
+
+                    a{
+                        @include anchor;
+                        font-size: 1.1em;
+                        font-weight: 550;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (width <=726px) {
+    .service_container{
+        padding: 3em 3%;
+    }
+}

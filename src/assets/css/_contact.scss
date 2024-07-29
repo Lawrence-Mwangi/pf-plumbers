@@ -1,0 +1,68 @@
+.contact_container{
+    padding: 3em 3%;
+
+    .contact_content{
+        padding: 0.9em 0;
+        @include grid(2);
+
+        .contact_infor{
+            @include flex_center;
+            flex-direction: column;
+            align-items: unset;
+            
+            p{
+                padding: 0.3em 0;
+                font-size: 1.9em;
+
+                a{
+                    @include anchor;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        form{
+            .input_group{
+                display: flex;
+                flex-direction: column;
+                font-size: 1.1em;
+
+                label{
+                    padding: 0.3em 0;
+                }
+
+                input,textarea{
+                    padding: 0.6em;
+                    border-radius: 8px;
+                }
+            }
+
+            .btn{
+                padding: 0.9em 0;
+
+                button{
+                    padding: 0.9em 1.8em;
+                    background: $accent-color;
+                    color: $secondary-color;
+                    border: none;
+                    border-radius: 8px;
+                    font-weight: 550;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (width <=726px) {
+    .contact_container{
+        padding: 2em 3%;
+        .contact_content{
+            .contact_infor{
+                p{
+                    font-size: 1.2em;
+                }
+            }
+        }
+    }
+}

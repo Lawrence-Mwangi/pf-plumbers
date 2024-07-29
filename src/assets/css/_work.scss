@@ -1,0 +1,23 @@
+.work_container{
+    padding: 3em 3%;
+
+    .work_content{
+        @include grid(3);
+
+        .work_items{
+            padding: 0.9em 0;
+
+            .image{
+                img{
+                    width: 80%;
+                    height: 55vh;
+                    border-radius: 16px;
+                }
+            }
+
+            h3,p{
+                padding: 0.3em 0;
+            }
+        }
+    }
+}
