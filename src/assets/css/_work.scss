@@ -21,3 +21,16 @@
         }
     }
 }
+
+
+@media screen and (width <=726px) {
+    .work_container{
+        .work_content{
+            .image{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
