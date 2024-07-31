@@ -13,7 +13,7 @@
 
                 <div class="btn">
                     <button>
-                        <a href="#">Our Service</a>
+                        <RouterLink :to="{ name: 'service'}">Our Service</RouterLink>
                     </button>
 
                     <button>

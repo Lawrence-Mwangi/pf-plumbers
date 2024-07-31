@@ -15,7 +15,7 @@ const closeNav = () => {
 <template>
     <div class="nav_container">
         <div class="logo">
-            <img src="../assets/images/logo.jpg" width="40px" height="40px" alt="logo">
+            <img src="../assets/images/logo.jpeg" width="40px" height="40px" alt="logo">
             <RouterLink :to="{ name:'home' }">PF Plumbers</RouterLink>
         </div>
         <div class="nav_links" :class="{ 'active': isNavOpen }">

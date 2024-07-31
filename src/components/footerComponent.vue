@@ -5,7 +5,7 @@
         <div class="footer_content">
             <div class="footer_infor">
                 <div class="image">
-                    <img src="../assets/images/logo.jpg" alt="PF logo">
+                    <img src="../assets/images/logo.jpeg" alt="PF logo">
                 </div>
                 <p>PF plumbers</p>
                 <p>We offer top-quality plumbing services at affordable prices, ensuring
